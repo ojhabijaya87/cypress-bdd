@@ -39,19 +39,21 @@ Before running this project, ensure you have the following installed:
 
 Clone the repository:
 
-`````bash
-git clone https://github.com/ojhabijaya87/cypress-bdd.git
+```bash
+git clone <https://github.com/ojhabijaya87/cypress-bdd.git>
+```
 
 Navigate to the project directory:
 
-````bash
+```bash
 cd cypress-bdd
+```
 
 Install the dependencies:
 
-````bash
+```bash
 npm install
-
+```
 
 ## Running Tests
 
@@ -66,4 +68,3 @@ npm install
 ## Contributing
 
 ## License
-`````
