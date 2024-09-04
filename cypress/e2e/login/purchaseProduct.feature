@@ -4,7 +4,6 @@ Feature: Purchase Product
   Background: Login
     Given I am logged in to the application
   Scenario Outline: Add a product to the cart and complete checkout
-    # Given I am logged in as "<email>" with password "<password>"
     When I click on "<menu>"
     When I select a category "<categories>"
     When I search for a product "<product>"
@@ -12,8 +11,6 @@ Feature: Purchase Product
     And I proceed to checkout
     And I select use a new address
     And I fill in the billing details
-    # And I select the delivery method
-    # And I accept the terms and conditions
     And I confirm the order
     Then I should see the order confirmation page
 
