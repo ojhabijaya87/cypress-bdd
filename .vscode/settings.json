@@ -1,0 +1,17 @@
+// {
+//     "cucumberautocomplete.steps": ["cypress/support/step_definitions/**.ts"],
+//     "cucumberautocomplete.syncfeatures": "cypress/e2e/*.feature",
+//     "cucumberautocomplete.strictGherkinCompletion": false,
+//     "cucumberautocomplete.smartSnippets": true,
+//     "cucumberautocomplete.stepsInvariants": true,
+//     "editor.formatOnPaste": true,
+//     "editor.formatOnSave": true,
+//     "editor.defaultFormatter": "esbenp.prettier-vscode",
+//     "editor.codeActionsOnSave": {
+//         "source.fixAll": true
+//     },
+//     "[feature]": {
+//         "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+//     },
+//     "liveServer.settings.port": 5501
+// }
